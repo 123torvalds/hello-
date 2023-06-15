@@ -1,1 +1,8 @@
+# Example 1 - play a note
+play 60
 
+# Example 2 - play 4 random notes
+4.times do
+  play rrand_i(60, 90)
+  sleep 0.5
+end
